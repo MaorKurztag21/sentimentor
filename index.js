@@ -9,7 +9,12 @@ async function checker(){
     },
     body: JSON.stringify({"text": `${text}`}),
     })
-    result.innerHTML=`rate: <div id="Rate"></div>Text is: <div id="character"></div>`;
+    result.innerHTML=`rate: <div id="Rate"></div>Text emotion is: <div id="emotion"></div>`;
+    let solution= await source.json();
+    let rate=document.getElementById("rate");
+    let emotion=document.getElementById("emotion");
+    rate.innerHTML=solution.source.polarity;
+    emotion.innerHTML=solution.source.type;
 }
 
 let active=document.getElementsByTagName("button")[0];
