@@ -1,6 +1,7 @@
 async function checker(){
     let text=document.getElementsByTagName("textarea")[0].value;
     let result=document.getElementById("resultplace");
+    result.appendChild(document.createElement("img")).src='https://i.gifer.com/80ZN.gif';
     let source=await fetch("https://sentim-api.herokuapp.com/api/v1/",{
     method: "POST",
     headers: {

@@ -1,11 +1,13 @@
 body{
-    background-color: rgb(144, 120, 209);
+    background-color: rgb(144, 120, 180);
 }
 h1{
+    background-color: rgb(144, 120, 154);
     text-align: center;
-    background-color: tan;
+    color: midnightblue;
 }
 #textplace{
+    background: rgb( 144, 120, 166);
     text-align: center;
 }
 textarea{
@@ -25,7 +27,17 @@ button{
 }
 #resultplace{
     text-align: center;
+    background-color: mintcream;
+    width: 400px;
+    height: 250px;
     font-size: x-large;
     font-weight: 800;
     font-style: oblique;
+    float:right;
+    
 }
+#resultplace img{
+    width: 60px;
+    height: 60px;
+}
+/*border: 1px solid blue;*/
