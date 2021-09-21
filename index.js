@@ -9,6 +9,11 @@ async function checker(){
     },
     body: JSON.stringify({"text": `${text}`}),
 })
+if(source.status>400){
+    result.innerHTML="";
+    result.textContent="It's an error";
+}
+else{
 result.innerHTML=`Rate: <div id="rate"></div>Text emotion is: <div id="emotion"></div>`;
 let solution=await source.json();
 let rate=document.getElementById("rate");
@@ -22,6 +27,7 @@ if(solution.result.polarity>0){
 else if(solution.result.polarity<0){
     rate.style.color="red";
     emotion.style.color="red";
+}
 }
 
 }
