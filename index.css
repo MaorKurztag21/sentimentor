@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(144, 120, 209);
+}
+h1{
+    text-align: center;
+    background-color: tan;
+}
+#textplace{
+    text-align: center;
+}
+textarea{
+    background-color: hsla(197, 87%, 56%, 0.5);
+    color: white;
+    padding: 15px 32px;
+    font-style: italic;
+    font-size: x-large;
+}
+button{
+    background-color: #e49012;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#resultplace{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 800;
+    font-style: oblique;
+}
