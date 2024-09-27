@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(144, 120, 180);
+   
+}
+h1{
+    background-color: rgb(144, 120, 154);
+    text-align: center;
+    color: midnightblue;
+}
+#textplace{
+    background: rgb( 144, 120, 166);
+    text-align: center;
+}
+textarea{
+    background-color: hsla(197, 87%, 56%, 0.5);
+    color: white;
+    padding: 15px 26px;
+    font-style: italic;
+     font-size: x-large; 
+    height: 300px;
+}
+button{
+    background-color: #e49012;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 47%;
+  top: 52%;
+}
+#resultplace{
+    text-align: center;
+    background-color: mintcream;
+    width: 600px;
+    height: 250px;
+    font-size: x-large;
+    font-weight: 800;
+    font-style: oblique;
+    position: absolute;
+    left: 34%;
+    top: 64%;
+    
+}
+
+ 
+ #load{
+    width: 60px;
+    height: 60px;
+     
+ }
+
+ #cat{
+    position: absolute;
+    left:65%;
+    bottom:5%;
+ }
